@@ -1,0 +1,266 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
+
+    background-color: #0f1821;
+
+    header {
+        align-items: center;
+
+        display: flex;
+        justify-content: space-between;
+        border-bottom: solid 1px #212b38;
+        margin-bottom: 3rem;
+
+        .header-primero {
+            display: flex;
+            align-items: center;
+
+
+            .logo-nombre {
+                display: flex;
+                justify-content: space-between;
+
+                .logo {
+                    margin: 5px;
+
+                    width: 2rem;
+                    height: 2rem;
+                }
+
+                .nombre {
+                    color: #ffffff;
+                }
+            }
+
+            .navegacion {
+                align-items: center;
+
+                a {
+
+                    margin: 1rem;
+                    gap: 10px;
+                    color: #969fab;
+
+                }
+            }
+        }
+
+        .header-secundario {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            align-items: center;
+
+            .motor-busqueda {
+                width: 100%;
+                font-size: 1rem;
+                line-height: 1rem;
+
+                position: relative;
+
+                svg {
+                    position: absolute;
+                    top: .4rem;
+                    left: .4rem;
+                }
+
+                #busqueda {
+                    border: solid 1px #8b95a5;
+                    border-radius: .5rem;
+                    margin: 0;
+                    width: 100%;
+                    height: 24px;
+                    padding: 1.1rem 0.5rem 1.1rem 2rem;
+                    line-height: 1.5rem;
+
+                    background-color: #16212b;
+                    color: #374152;
+                }
+            }
+
+
+
+            .subida {
+                font-size: 14px;
+                display: block;
+                width: fit-content;
+                white-space: nowrap;
+
+                border-radius: 0.5rem;
+                padding: .7rem 1rem;
+                background-color: #112d4a;
+                color: #1172d4;
+            }
+
+            .imagen-perfil {
+                margin: 5px;
+
+                width: 2rem;
+                height: 2rem;
+            }
+
+        }
+
+
+    }
+
+    main {
+        margin: 0 auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+        .guia-pagina {
+            gap: 10px;
+
+            display: flex;
+
+            .redirector-buscador {
+                color: #4c5663;
+            }
+
+            .separador {
+                color: #4c5663;
+            }
+
+            .pagina-actual {
+                color: #e4e6eb;
+            }
+        }
+
+        .contenido-total {
+            margin: 0 auto;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            max-width: 60rem;
+            padding: 3rem 0;
+
+            .informacion-total {
+                color: #ffffff;
+
+
+                .titulo-boton {
+                    margin-bottom: 2rem;
+
+                    display: flex;
+                    justify-content: space-between;
+
+                    .titulo {
+                        h1 {
+                            letter-spacing: 2px;
+
+                            word-spacing: 10px;
+
+                        }
+
+
+                        p {
+                            line-height: 1.5;
+                            color: #9da4b0;
+                        }
+
+                    }
+
+                    .boton {
+
+                        gap: 1rem;
+
+                        .aplicar {
+                            border-radius: 0.5rem;
+                            padding: 1rem 1.5rem;
+                            background-color: #1172d4;
+                            color: #ffffff;
+                        }
+
+                    }
+
+                }
+
+                .descripcion-puesto {
+
+
+                    h2 {
+                        margin-bottom: 1rem;
+                    }
+
+                    p {
+                        line-height: 1.5;
+                        color: #adb0b8;
+                    }
+                }
+
+                .responsabilidades {
+                    margin-top: 2rem;
+
+                    h2 {
+                        margin-bottom: 1rem;
+                    }
+
+                    ul {
+                        list-style-type: none;
+                        line-height: 1.5;
+                        color: #adb0b8;
+                    }
+                }
+
+                .requisitos {
+                    margin-top: 2rem;
+
+                    h2 {
+                        margin-bottom: 1rem;
+                    }
+
+                    ul {
+                        list-style-type: none;
+                        line-height: 1.5;
+                        color: #adb0b8;
+                    }
+                }
+
+                .acerca-empresa {
+                    margin-top: 2rem;
+
+                    h2 {
+                        margin-bottom: 1rem;
+                    }
+
+                    p {
+                        line-height: 1.5;
+                        color: #adb0b8;
+
+                    }
+                }
+
+                .boton-aplicar {
+                    margin-top: 2.5rem;
+                    border-top: solid 1px #212b38;
+                    padding-top: 1.5rem;
+
+                    .aplicar {
+                        gap: 1rem;
+                        border-radius: 0.5rem;
+                        padding: 1rem 1.5rem;
+                        background-color: #1172d4;
+                        color: #ffffff;
+                    }
+
+                }
+            }
+
+
+
+        }
+    }
+
+}
+a{
+    font-family: Inter, Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}

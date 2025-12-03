@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=divece-width, initial-scale=1.0" name="viewport">
+    <title>DevJobs-Empleos</title>
+    <link rel="stylesheet" href="./segundaesste.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+</head>
+
+<body>
+    <header>
+        <div class="header-principal">
+            <section class="logo-nombre">
+                <img class="logo" src="../logo.jpeg">
+                <h2 class="nombre">DevJobs</h2>
+            </section>
+            <nav class="menu-principal">
+                <a class="" href="../index.html">Inicio</a>
+                <a class="" href="">Empleos</a>
+                <a class="" href="">Empresas</a>
+                <a class="" href="">Salarios</a>
+            </nav>
+
+        </div>
+
+        <div class="header-secundario">
+            <a class="subir" href="">Subir CV</a>
+            <img class="imagen-de-perfil" src="../persona.png">
+        </div>
+    </header>
+    <main>
+        <section class="contenido-total">
+            <section class="buscador">
+                <div class="header-buscador">
+                    <h1>Encuentra tu próximo trabajo</h1>
+                    <p class="subtitulo">
+                        Explora miles de oportunidades en el sector tecnológico
+                    </p>
+                </div>
+                <form class="bottom-buscador" role="search">
+                    <div class="motor-busqueda">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="#6b7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            class="icon icon-tabler icons-tabler-outline icon-tabler-search">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M10 10m-7 0a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
+                            <path d="M21 21l-6 -6" />
+                        </svg>
+                        <input id="busqueda" type="text" placeholder="buscar trabajos, empresas o habilidades" />
+                    </div>
+
+                    <div class="opciones-busqueda">
+                        <select name="why">
+                            <option value="1">Tecnologia</option>
+                            <option value="2">Duda</option>
+                            <option value="3">Más información</option>
+                        </select>
+                        <select name="why">
+                            <option value="1">Ubicación</option>
+                            <option value="2">Duda</option>
+                            <option value="3">Más información</option>
+                        </select>
+                        <select name="why">
+                            <option value="1">Tipo de contrato</option>
+                            <option value="2">Duda</option>
+                            <option value="3">Más información</option>
+                        </select>
+                        <select name="why">
+                            <option value="1">Nivel de experiencia</option>
+                            <option value="2">Duda</option>
+                            <option value="3">Más información</option>
+                        </select>
+                    </div>
+
+                </form>
+            </section>
+
+            <section class="resultado">
+                <h2>Resultados de búsqueda</h2>
+                <div class="listado-ofertas">
+                    <article class="oferta">
+                        <div class="informacion">
+                            <h3>
+                                Ingeniero de Software
+                            </h3>
+                            <p class="subtitulo">Tech Solutions Inc. | Remoto</p>
+                            <p class="informacion-de-oferta">Buscamos un ingeniero de software con experiencia en
+                                desarrollo
+                                web y conocimientos en
+                                JavaScript,
+                                React y Node.js. El candidato ideal debe ser capaz de trabajar en equipo y tener buenas
+                                hebilidades
+                                de comunicación</p>
+                        </div>
+                        <div>
+                            <a class="aplicar" href="">Aplicar</a>
+                        </div>
+                        
+                    </article>
+                    <article class="oferta">
+                        <div class="informacion">
+                            <h3>
+                                Analista de Datos
+                            </h3>
+                            <p class="subtitulo">Data Driven Co. | Ciudad de México</p>
+                            <p class="información-de-oferta">Estamos buscando un analista de datos con experiencia en el
+                                manejo de grandes conjuntos de
+                                datos
+                                y
+                                herrammientas de visuañización. Se requiere conocimiento en SQL, Python y R.</p>
+                        </div>
+                        <div>
+                            <a class="aplicar" href="">Aplicar</a>
+                        </div>
+                        
+                    </article>
+                    <article class="oferta">
+                        <div class="informacion">
+                            <h3>
+                                Desarrollador de Aplicaciones Móviles
+                            </h3>
+                            <p class="subtitulo">
+                                Mobile Apps Ltd. | Guadalajara
+                            </p>
+                            <p class="informacion-de-oferta">
+                                Buscamos un desarrollador de aplicaciones móviles con experiencia en iOS y/o Android. El
+                                candidato
+                                debe tener conocimientos en Swift, Kotlin y el desarrollo de interfaces de usuario.
+                            </p>
+                        </div>
+                        <div>
+                            <a class="aplicar" href="">Aplicar</a>
+                        </div>
+                        
+                    </article>
+                    <article class="oferta">
+                        <div class="informacion">
+                            <h3>
+                                Ingeniero de DevOps
+                            </h3>
+                            <p class="subtitulo">
+                                Cloud Services SA | Remoto
+                            </p>
+                            <p class="informacion-de-oferta">
+                                Estamos buscando un ingeniero de DevOps con experiencia en la gestión de
+                                infraestructuras en
+                                la
+                                nube, automatización de procesos y herramientas de integración continua. Se requiere
+                                conocimiento en
+                                AWS,Azure o GCP.
+                            </p>
+                        </div>
+                        <div>
+                            <a class="aplicar" href="">Aplicar</a>
+                        </div>
+                        
+                    </article>
+                </div>
+                <nav class="paginacion">
+                    <a class="enlace-pagina" href="">&lt;</a>
+                    <a class="enlace-pagina pagina-actual" href="">1</a>
+                    <a class="enlace-pagina" href="">2</a>
+                    <a class="enlace-pagina" href="">3</a>
+                    <a class="enlace-pagina" href="">4</a>
+                    <a class="enlace-pagina" href="">5</a>
+                    <a class="enlace-pagina" href="">&gt;</a>
+                </nav>
+            </section>
+        </section>
+
+    </main>
+</body>
+
+</html>
