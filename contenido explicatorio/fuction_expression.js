@@ -19,3 +19,16 @@ function sum(a, b) {
     return a + b
 }
 
+
+// la funcion flecha
+function sumar(a, b) {
+    return a + b
+}
+// ahora lo comvertimos
+const sumarFlecha = (a, b) =>{
+    return a + b
+}
+
+// ahora  lo simplicamos aun mas esto es solo cuando el return es algo simple y las brochetas
+
+const sumarFlecha = (a, b) => a + b
