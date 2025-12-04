@@ -13,3 +13,8 @@ function factorial(n){
     }
 }
 factorial (5)
+//suma de los primeros numeros enteros de forma recursiva.
+factorial suma(numero){
+    if (numero < 0) { return}
+    console.log
+}
