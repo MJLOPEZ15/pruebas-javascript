@@ -44,3 +44,13 @@ function calcular(numero1, numero2, operacion){
     return resultado
 }
 
+// formas de incluir funciones no dictadas anteriormente
+calcular(10, 2, function(a, b) {
+  return a / b
+})
+// El resultado es: 5
+
+// O usando funciones flecha (las veremos más adelante)
+calcular(4, 3, (a, b) => a ** b) // El resultado es: 64 (4 elevado a 3)
+
+
