@@ -27,3 +27,26 @@ esPrimo(5)
 Math.random()
 //tambien esta el 'math.floor(cualquier numero con decimal)' lo redondea asia abajo
 Math.floor(3.56)
+
+let respuesta = parseInt(prompt('escribe un numero'))
+// let resultado = respuesta
+
+
+// while(1< respuesta){
+//     respuesta = respuesta - 1
+//     resultado = resultado * respuesta
+// }
+//     console.log ('la suma es ' + resultado)
+
+
+function factorial(n){
+    let resultado = n;
+    while(1 < n){
+        n = n - 1
+        resultado = resultado * n
+    }
+
+    return resultado;
+}    
+
+console.log("El factorial de "+respuesta+" es "+factorial(respuesta))
