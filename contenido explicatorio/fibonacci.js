@@ -59,3 +59,7 @@ function fibonacci(n) {
 }
 
 console.log('la suma final fue ' + respuesta)
+
+
+// ejemplo function console.log ('la suma final fue ' + fibonacci(8))
+// la suma final fue 21
