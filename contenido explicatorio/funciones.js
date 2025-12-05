@@ -47,6 +47,6 @@ function factorial(n){
     }
 
     return resultado;
-}    
+}
 
 console.log("El factorial de "+respuesta+" es "+factorial(respuesta))
