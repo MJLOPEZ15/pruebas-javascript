@@ -14,4 +14,11 @@ let frutas = ['🍎', '🍌', '🍓']
 for (let i = 0; i < frutas.length; i++) {
   console.log(frutas[i]) // imprime el elemento en la posición i
 }
-frutas.shift()
+let respuesta = parseInt(prompt('escribe un numero entero'))
+const total= [0]
+for(let base = 0; base <= respuesta; base++){
+  total.push(base)
+  if(base = respuesta){
+    console.log(total)
+  }
+}
